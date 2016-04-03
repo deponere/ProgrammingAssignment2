@@ -47,7 +47,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##
 ## cacheSolve take a before generated matrix (made with makeCacheMatrix)
 ## checks if there was already a inversion of the matrix calculated
-## and returns the chache of calculates the matrix for the first time..
+## and returns the cache of calculates the matrix for the first time..
 ## m1 internal variable to deal with the matrix
 
 cacheSolve <- function(x, ...) {
